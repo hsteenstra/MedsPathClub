@@ -1,7 +1,32 @@
 /* =========================
    GLOBAL SETTINGS
 ========================= */
+.hero .hero-image {
+    width: 120% !important;
+    max-width: none !important;
+    margin-right: -120px !important;
 
+    border-radius: 0 !important;
+
+    /* Apple-style fade into the text */
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(0,0,0,.1) 20%,
+        rgba(0,0,0,.35) 35%,
+        rgba(0,0,0,.7) 55%,
+        black 75%
+    ) !important;
+
+    mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(0,0,0,.1) 20%,
+        rgba(0,0,0,.35) 35%,
+        rgba(0,0,0,.7) 55%,
+        black 75%
+    ) !important;
+}
 * {
     margin: 0;
     padding: 0;
