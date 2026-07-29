@@ -26,7 +26,30 @@
         black 75%
     ) !important;
 }
+.hero .hero-image {
+    border-radius: 0 !important;
+    width: 120% !important;
+    max-width: none !important;
+    margin-right: -120px !important;
+    
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(0,0,0,.1) 20%,
+        rgba(0,0,0,.35) 35%,
+        rgba(0,0,0,.7) 55%,
+        black 75%
+    ) !important;
 
+    mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(0,0,0,.1) 20%,
+        rgba(0,0,0,.35) 35%,
+        rgba(0,0,0,.7) 55%,
+        black 75%
+    ) !important;
+}
 
 html {
     scroll-behavior: smooth;
