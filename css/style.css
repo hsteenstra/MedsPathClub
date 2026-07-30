@@ -863,3 +863,32 @@ flex-direction:column;
     max-width: 320px !important;
     flex: 0 0 320px !important;
 }
+
+/* =========================
+   EXECUTIVE BOARD FIX
+========================= */
+
+.board > .container {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.board-members {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 40px !important;
+    flex-wrap: wrap !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+}
+
+.board-members .member-card {
+    width: 340px !important;
+    flex: 0 0 340px !important;
+    margin: 0 !important;
+}
