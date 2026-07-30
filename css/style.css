@@ -848,3 +848,18 @@ flex-direction:column;
     color: #6c757d;
     line-height: 1.6;
 }
+
+/* FORCE 2-CARD LAYOUT */
+.board {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    flex-wrap: wrap !important;
+    gap: 40px !important;
+}
+
+.member-card {
+    width: 320px !important;
+    max-width: 320px !important;
+    flex: 0 0 320px !important;
+}
